@@ -1,11 +1,6 @@
-# simple-select
+# The Fuck
 
-A zsh plugin for a very basic select functionality.
-
-You provide an array of strings and select one from the shown list with the keyboard.
-On Enter the selected string will be output.
-
-![](simple-select.gif)
+Checks and setups `thefuck` command.
 
 ## Install
 
@@ -13,22 +8,11 @@ Using the [Zap](https://www.zapzsh.org/) minimal zsh plugin manager, add the fol
 
 ```sh
 # Install plugin
-ZAP_GIT_PREFIX="git@dev.voepel.ruhr:" plug "zap-zsh/simple-select"
+ZAP_GIT_PREFIX="git@dev.voepel.ruhr:" plug "zap-zsh/thefuck"
 ```
 
 ## Usage
-
-```zsh
-arr=( "a" "b" "c" )
-
-./bin/simple-select "${arr[@]}"
-
-echo "${arr[@]:$?:1}"
-```
-> **ATTENTION:** Use `${arr[@]:$?:1}` to interoperate between bash and zsh shells.
-> Please do not use something in the style of `${arr[$i]}` because you might get the wrong values!
-> ZSH and Bash start at a different index in arrays
+Since this is a wrapper [see the respective documentation](https://github.com/nvbn/thefuck#how-it-works).
 
 ## License
-
-TBD
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
