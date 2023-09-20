@@ -9,7 +9,7 @@ On Enter the selected string will be output.
 
 ## Install
 
-Using the [:zap: Zap](https://www.zapzsh.org/) minimal zsh plugin manager, add the following to your `.zshrc`
+Using the [Zap](https://www.zapzsh.org/) minimal zsh plugin manager, add the following to your `.zshrc`
 
 ```sh
 # Install plugin
